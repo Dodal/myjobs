@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Lemon</title>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Icon -->
+	<link rel="stylesheet" href="css/all.css">
+	<!--Fonts-->
+	<!--JosefinSans-->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+	<!--Opensans-->
+	<link rel="stylesheet" href="fonts/opensans/opensans.css">
+	<!--PlayfairDisplay-->
+	<link rel="stylesheet" href="fonts/playfair/playfair.css">
+	<!-- Carousel -->
+	<link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="libs/owlcarousel/assets/owl.theme.default.min.css">
+	<!--Calendar-->
+	<link rel="stylesheet" href="css/dcalendar.picker.css">
+	<!--Scroll-->
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+	<!-- Style css -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<a href="#" class="header__logo"><img src="img/top_logo.png" alt="Header logo" class="top__logo"></a>
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-xl navbar-light bg-light">
+				<a class="navbar-brand" href="#"><img src="img/menu_logo.png" alt="navigation logo"
+						class="nav__logo"></a>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul id="list__menu" class="navbar-nav ml-auto mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recipes</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">RECOMMENDED</a>
+								<a class="dropdown-item" href="#">POPULAR</a>
+								<a class="dropdown-item" href="#">QUICK & EASY</a>
+								<a class="dropdown-item" href="#">HEALTHY</a>
+								<a class="dropdown-item" href="#">NEWEST</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Photo Galleries</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Videos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">All Categories</a>
+						</li>
+					</ul>
+				</div>
+				<form class="form-inline my-2 my-lg-0">
+					<button class="btn header__btn my-2 my-sm-0" type="submit"><i class="fas fa-search"></i>Find a recipe</button>
+				</form>
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</nav>
+		</div>
+	</header>
+	<section class="slider">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div id="carousel" class=" owl-carousel owl-theme no-gutters">
+						<div class="carousel__bg" style="background-image: url('img/zavtrak1.png');">
+							<div class="carousel__wrapper">
+								<div class="row">
+									<div class="col-lg-3 offset-1">
+										<img src="img/slider_logo.png" alt="carousel logo" class="carousel__logo">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-5 offset-1">
+										<h3 class="carousel__title">Flakes and Blueberries</h3>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-5 offset-1">
+										<p class="carousel__info">
+											If you're looking for decadence,
+											look no further — you've found the Holy Grail of desserts.
+											Honestly, this cake makes us wonder why Bananas Foster hasn't always been
+											served on top of ice
+											cream cake.</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-5 offset-1">
+										<form class="form-inline my-2 my-lg-0">
+											<button class="btn carousel__btn my-2 my-sm-0" type="submit">GET IT
+												RECIPE</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel__bg" style="background-image: url('img/photo.png');">
+							<div class="carousel__wrapper">
+								<div class="row">
+									<div class="col-lg-3 offset-1">
+										<img src="img/slider_logo.png" alt="carousel logo" class="carousel__logo">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-5 offset-1">
+										<h3 class="carousel__title">Ice Cream Cake</h3>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-5 offset-1">
+										<p class="carousel__info">
+											If you're looking for decadence,
+											look no further — you've found the Holy Grail of desserts.
+											Honestly, this cake makes us wonder why Bananas Foster hasn't always been
+											served on top of ice
+											cream cake.</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-5 offset-1">
+										<form class="form-inline my-2 my-lg-0">
+											<button class="btn carousel__btn my-2 my-sm-0" type="submit">GET IT
+												RECIPE</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel__bg" style="background-image: url('img/photo.png');">
+							<div class="carousel__wrapper">
+								<div class="row">
+									<div class="col-lg-3 offset-1">
+										<img src="img/slider_logo.png" alt="carousel logo" class="carousel__logo">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-5 offset-1">
+										<h3 class="carousel__title">Bananas Foster Ice Cream Cake</h3>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-5 offset-1">
+										<p class="carousel__info">
+											If you're looking for decadence,
+											look no further — you've found the Holy Grail of desserts.
+											Honestly, this cake makes us wonder why Bananas Foster hasn't always been
+											served on top of ice
+											cream cake.</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-5 offset-1">
+										<form class="form-inline my-2 my-lg-0">
+											<button class="btn carousel__btn my-2 my-sm-0" type="submit">GET IT
+												RECIPE</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel__bg" style="background-image: url('img/photo.png');">
+							<div class="carousel__wrapper">
+								<div class="row">
+									<div class="col-lg-3 offset-1">
+										<img src="img/slider_logo.png" alt="carousel logo" class="carousel__logo">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-5 offset-1">
+										<h3 class="carousel__title">Bananas Foster Ice Cream Cake</h3>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-5 offset-1">
+										<p class="carousel__info">
+											If you're looking for decadence,
+											look no further — you've found the Holy Grail of desserts.
+											Honestly, this cake makes us wonder why Bananas Foster hasn't always been
+											served on top of ice
+											cream cake.</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-5 offset-1">
+										<form class="form-inline my-2 my-lg-0">
+											<button class="btn carousel__btn my-2 my-sm-0" type="submit">GET IT
+												RECIPE</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel__bg" style="background-image: url('img/photo.png');">
+							<div class="carousel__wrapper">
+								<div class="row">
+									<div class="col-lg-3 offset-1">
+										<img src="img/slider_logo.png" alt="carousel logo" class="carousel__logo">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-5 offset-1">
+										<h3 class="carousel__title">Bananas Foster Ice Cream Cake</h3>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-5 offset-1">
+										<p class="carousel__info">
+											If you're looking for decadence,
+											look no further — you've found the Holy Grail of desserts.
+											Honestly, this cake makes us wonder why Bananas Foster hasn't always been
+											served on top of ice
+											cream cake.</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-5 offset-1">
+										<form class="form-inline my-2 my-lg-0">
+											<button class="btn carousel__btn my-2 my-sm-0" type="submit">GET IT
+												RECIPE</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="recipes">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<a href="#">
+						<h3 class="recipes__mobile">GET IT RECIPE</h3>
+					</a>
+				</div>
+			</div>
+			<div class="recipes__wrapper d-flex justify-content-around align-items-center">
+				<div class="row">
+					<div class="col-lg-4">
+						<a href="#"><img src="img/raspberry.png" alt="raspberry" class="recipes__img"></a>
+						<div class="padding__mobile">
+							<h4 class="recipes__title">
+								<a href="#" class="recipes__link">Raspberry & Cream Frozen Yogurt Pie</a>
+							</h4>
+							<div class="more-info">
+								<a href="#" class="more__link"><i class="far fa-clock"><span
+											class="time">35mins</span></i></a>
+								<a href="#" class="more__link"><i class="far fa-comment"><span>7</span></i></a>
+								<a href="#" class="more__link"><i class="far fa-eye"><span>14</span></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<a href="#"><img src="img/giant.png" alt="raspberry" class="recipes__img"></a>
+						<div class="padding__mobile">
+							<h4 class="recipes__title">
+								<a href="#" class="recipes__link">Giant Ice Cream Sandwich</a>
+							</h4>
+							<div class="more-info">
+								<a href="#" class="more__link"><i class="far fa-clock"><span
+											class="time">20mins</span></i></a>
+								<a href="#" class="more__link"><i class="far fa-comment"><span>4</span></i></a>
+								<a href="#" class="more__link"><i class="far fa-eye"><span>356</span></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<a href="#"><img src="img/dark.png" alt="raspberry" class="recipes__img"></a>
+						<div class="padding__mobile">
+							<h4 class="recipes__title">
+								<a href="#" class="recipes__link">Dark Chocolate Crunch Ice Cream <br> Sandwich Cake</a>
+							</h4>
+							<div class="more-info">
+								<a href="#" class="more__link"><i class="far fa-clock"><span
+											class="time">15mins</span></i></a>
+								<a href="#" class="more__link"><i class="far fa-comment"><span>4</span></i></a>
+								<a href="#" class="more__link"><i class="far fa-eye"><span>167</span></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="bananas">
+		<div class="container">
+			<div class="bananas__wrapper">
+				<div class="row no-gutters">
+					<div class="col-lg-6">
+						<div class="bananas__bg" style="background-image: url('img/bananas.png');">
+							<i class="far fa-file-image"></i>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="bananas__scroll">
+							<a href="#" class="scroll__link">
+								<h2 class="scroll__title">Bananas Foster Ice Cream Cake</h2>
+							</a>
+							<div class="scroll__info">
+								<a href="#" class="scroll-info__link"><i
+										class="far fa-clock"><span>15mins</span></i></a>
+								<a href="#" class="scroll-info__link">
+									<div class="easy">
+										<div class="easy2"><span>Easy</span></div>
+									</div>
+								</a>
+								<form class="form-inline my-2 my-lg-0">
+									<button class="btn scroll__btn my-2 my-sm-0" type="submit">SAVE RECIPE</button>
+								</form>
+							</div>
+							<div class="mCustomScrollbar">
+								<p class="scroll__content">
+									1 (8 ounce) container frozen whipped topping, thawed20 chocolate round wafers,
+									divided
+									1 (7 1/4 ounce) bottle Smucker's® Hot Dark Chocolate Microwaveable Topping, divided
+								</p>
+								<span class="scr__dir">Directions</span>
+								<p class="scroll__content">
+									<br>ARRANGE 8 to 9 ice cream sandwiches in 9-inch square pan, cutting to form an
+									even layer. Spread
+									with half of whipped topping. Break or crush chocolate wafers and sprinkle over the
+									whipped cream.
+									Microwave 1 cup of chocolate topping into small microwave-safe bowl on HIGH for 30
+									seconds. Drizzle
+									evenly over wafers.
+									TOP with remaining 8 to 9 ice cream sandwiches to form an even layer. Spread with
+									remaining whipped
+									topping. Freeze 3 hours or overnight. Remove from freezer 10 minutes before serving.
+									Cut into squares.
+									HEAT remaining topping. Drizzle each serving with topping. Sprinkle with decorator
+									sprinkles.
+									Nutritional information (amount per servings): Total Calories: 64
+									1 (8 ounce) container frozen whipped topping, thawed
+									ARRANGE 8 to 9 ice cream sandwiches in 9-inch square pan, cutting to form an even
+									layer. Spread with
+									half of whipped topping. Break or crush chocolate wafers and sprinkle over the
+									whipped cream.
+									Microwave 1 cup of chocolate topping into small microwave-safe bowl on HIGH for 30
+									seconds. Drizzle
+									evenly over wafers.
+									TOP with remaining 8 to 9 ice cream sandwiches to form an even layer. Spread with
+									remaining whipped
+									topping. Freeze 3 hours or overnight. Remove from freezer 10 minutes before serving.
+									Cut into squares.
+									HEAT remaining topping. Drizzle each serving with topping. Sprinkle with decorator
+									sprinkles.
+									Nutritional information (amount per servings): Total Calories: 640. Sodium 440mg.
+									Fat: 32g.
+									Carbohydrates: 82g. Cholesterol: 40mg. Protein: 11g. Fiber: 1g.վ
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="author">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="no-page" style="background-image: url('img/404.png');">
+						<h5 class="npage__title">404</h5>
+						<div class="npage__center">
+							<h4>Sorry</h4>
+							<h5>WE COULDN’T FIND THE PAGE</h5>
+							<div class="smile">:(</div>
+							<button href="#" class="btn btn__nopage">back</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="author-block ml-auto">
+						<h5 class="author-block__title">Author</h5>
+						<div class="author__wrappper">
+							<img src="img/karen.png" alt="images" class="author__photo">
+							<div class="wrap__info">
+								<a href="#" class="author__name">Karen Gray</a>
+								<h4 class="author__state">United States</h4>
+								<div class="author__social">
+									<a href="#" class="social__link"><i class="fab fa-google-plus-g"></i></a>
+									<a href="#" class="social__link"><i class="fab fa-twitter"></i></a>
+									<a href="#" class="social__link"><i class="fab fa-facebook-f"></i></a>
+									<a href="#" class="social__link"><i class="fab fa-pinterest-square"></i></a>
+								</div>
+								<h5 class="author__about">About Lemon</h5>
+								<p class="authors__info">Over the fifteen-year life span of Food.com, we’ve learned that
+									– in addition
+									to eating – sharing is what you do best. And thanks to the 20 million of you who
+									come here each month,
+									we now have 500,000 recipes to show for it, more than anywhere else in the digital
+									universe. We also
+									have tons crazy-tempting photos, troves of recipe reviews and more than 2 million
+									Facebook likes.
+									That’s a heck of a lot of Food. Thank you!</p>
+							</div>
+						</div>
+						<img src="img/Signature.png" alt="images" class="author__signature">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="side">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="chichi ml-auto">
+						<h4 class="chichi__title">
+							Chi-Chi or Chichi
+						</h4>
+						<a href="#"><img src="img/uberdata.png" alt="images" class="chi__photo"></a>
+						<div class="chi__info">
+							<p>Recipe by</p>
+							<h5><a href="#">Smuckersreg Toppings</a></h5>
+							<div class="more-info">
+								<a href="#" class="more__link"><i class="far fa-clock"><span
+											class="time">15mins</span></i></a>
+								<a href="#" class="more__link"><i class="far fa-comment"><span>12</span></i></a>
+								<a href="#" class="more__link"><i class="far fa-eye"><span>37</span></i></a>
+							</div>
+						</div>
+						<div id="chi__slider" class="owl-carousel owl-theme">
+							<img src="img/chi_slide.png" alt="images">
+							<img src="img/s1200.jpg" alt="images">
+							<img src="img/zavtrak_slide.png" alt="images">
+							<img src="img/chi_slide.png" alt="images">
+							<img src="img/chi_slide.png" alt="images">
+						</div>
+					</div>
+					<div class="target ml-auto">
+						<div class="target__header">
+							<h5 class="target__title">Target</h5>
+							<div class="target__header-icon">
+								<a href="#" class="chi-icon__link"><i class="fas fa-print"></i></a>
+								<a href="#" class="chi-icon__link"><i class="far fa-envelope"></i></a>
+								<a href="#" class="chi-icon__link"><i class="fab fa-facebook-f"></i></a>
+								<a href="#" class="chi-icon__link"><i class="fab fa-pinterest-square"></i></a>
+							</div>
+						</div>
+						<div class="pres__target">
+							<a href="#">
+								<h4 class="target__pre-title">Presentation line</h4>
+							</a>
+							<div class="target__block">
+								<div class="circle" style="background-image: url('img/progress.png');"><span>19%</span>
+								</div>
+								<div class="target__line">
+									<h5 class="line__title"><a href="#">Housewives</a></h5>
+									<p class="line__info">Lorem ipsum dolor sit amet, prima ceteros.</p>
+								</div>
+							</div>
+							<div class="target__block">
+								<div class="circle" style="background-image: url('img/progress2.png');"><span>65%</span>
+								</div>
+								<div class="target__line">
+									<h5 class="line__title"><a href="#">Newlyweds</a></h5>
+									<p class="line__info">Has brute elitr deserunt ea, assentior eloquentiam neglegentur
+										te sed.</p>
+								</div>
+							</div>
+							<div class="target__block">
+								<div class="circle" style="background-image: url('img/progress3.png');"><span>50%</span>
+								</div>
+								<div class="target__line">
+									<h5 class="line__title"><a href="#">Business lady</a></h5>
+									<p class="line__info">Ei nam primis putent signiferumque.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="chi__recipe ml-auto">
+						<div class="head__chi">
+							<h5 class="chi__recipe-title">Recipes</h5>
+							<div class="head__chi-icon">
+								<a href="#" class="chi-icon__link"><i class="fas fa-print"></i></a>
+								<a href="#" class="chi-icon__link"><i class="far fa-envelope"></i></a>
+								<a href="#" class="chi-icon__link"><i class="fab fa-facebook-f"></i></a>
+								<a href="#" class="chi-icon__link"><i class="fab fa-pinterest-square"></i></a>
+							</div>
+						</div>
+						<!--Сделать ТАБЫ-->
+						<div class="tabs ">
+							<div class="tabs__nav tabs-nav">
+								<div class="tabs-nav__item is-active" data-tab-name="tab-1">easy</div>
+								<div class="tabs-nav__item" data-tab-name="tab-2">middle</div>
+								<div class="tabs-nav__item" data-tab-name="tab-3">long</div>								
+							</div>
+							<div class="tabs__content">
+								<div class="tab tab-1 is-active">	
+									<div class="chi__recipe-recipe">
+										<a href="#"><img src="img/easy1.png" alt="images" class="chi-recipe__img"></a>
+										<div class="recipe-recipe__right">
+											<a href="#" class="recipe__by-link"><span>by </span><strong>Smuckersreg
+													Toppings</strong></a>
+											<p>Thanks for the recipe
+												lorem ipsum bla bla bla
+												Thanks for the recipe lore</p>
+										</div>
+									</div>
+									<div class="chi__recipe-recipe">
+											<a href="#"><img src="img/easy2.png" alt="images" class="chi-recipe__img"></a>
+											<div class="recipe-recipe__right">
+												<a href="#" class="recipe__by-link"><span>by </span><strong>Smuckersreg
+														Toppings</strong></a>
+												<p>Thanks for the recipe Thanks for the recipe lore</p>
+											</div>
+									</div>
+									<div class="chi__recipe-recipe">
+											<a href="#"><img src="img/easy3.png" alt="images" class="chi-recipe__img"></a>
+											<div class="recipe-recipe__right">
+												<a href="#" class="recipe__by-link"><span>by </span><strong>Smuckersreg
+														Toppings</strong></a>
+												<p>Thanks for the recipe
+													Thanks for the recipe lore</p>
+											</div>
+									</div>
+								</div>
+								<div class="tab tab-2">
+										<div class="chi__recipe-recipe">
+												<a href="#"><img src="img/easy2.png" alt="images" class="chi-recipe__img"></a>
+												<div class="recipe-recipe__right">
+													<a href="#" class="recipe__by-link"><span>by </span><strong>Smuckersreg
+															Toppings</strong></a>
+													<p>Thanks for the recipe Thanks for the recipe lore</p>
+												</div>
+										</div>
+										<div class="chi__recipe-recipe">
+												<a href="#"><img src="img/easy3.png" alt="images" class="chi-recipe__img"></a>
+												<div class="recipe-recipe__right">
+													<a href="#" class="recipe__by-link"><span>by </span><strong>Smuckersreg
+															Toppings</strong></a>
+													<p>Thanks for the recipe
+														Thanks for the recipe lore</p>
+												</div>
+										</div>
+										<div class="chi__recipe-recipe">
+												<a href="#"><img src="img/easy1.png" alt="images" class="chi-recipe__img"></a>
+												<div class="recipe-recipe__right">
+													<a href="#" class="recipe__by-link"><span>by </span><strong>Smuckersreg
+															Toppings</strong></a>
+													<p>Thanks for the recipe
+															lorem ipsum bla bla bla
+															Thanks for the recipe lore</p>
+												</div>
+										</div>
+								</div>
+								<div class="tab tab-3">
+										<div class="chi__recipe-recipe">
+												<a href="#"><img src="img/easy3.png" alt="images" class="chi-recipe__img"></a>
+												<div class="recipe-recipe__right">
+													<a href="#" class="recipe__by-link"><span>by </span><strong>Smuckersreg
+															Toppings</strong></a>
+													<p>Thanks for the recipe Thanks for the recipe lore</p>
+												</div>
+										</div>
+										<div class="chi__recipe-recipe">
+												<a href="#"><img src="img/easy1.png" alt="images" class="chi-recipe__img"></a>
+												<div class="recipe-recipe__right">
+													<a href="#" class="recipe__by-link"><span>by </span><strong>Smuckersreg
+															Toppings</strong></a>
+													<p>Thanks for the recipe
+														Thanks for the recipe lore</p>
+												</div>
+										</div>
+										<div class="chi__recipe-recipe">
+												<a href="#"><img src="img/easy2.png" alt="images" class="chi-recipe__img"></a>
+												<div class="recipe-recipe__right">
+													<a href="#" class="recipe__by-link"><span>by </span><strong>Smuckersreg
+															Toppings</strong></a>
+													<p>Thanks for the recipe
+															lorem ipsum bla bla bla
+															Thanks for the recipe lore</p>
+												</div>
+										</div>
+								</div>
+							</div>
+						</div>
+						<button href="#" class="btn btn__chi">view more</button>
+					</div>
+					<div class="tags ml-auto">
+						<h5 class="tags__title">Tags</h5>
+						<p class="tags__tags">
+							<a href="#">#yummy</a> 
+							<a href="#">#sweet</a> 
+							<a href="#">#dinner</a> 
+							<a href="#">#lunch</a>
+							<a href="#">#breakfast</a> 
+							<a href="#">#fresh</a> 
+							<a href="#">#tasty</a> 
+							<a href="#">#delish</a>
+							<a href="#">#delicious</a> 
+							<a href="#">#eating</a> 
+							<a href="#">#food</a>
+						</p>
+					</div>
+					<div class="calendar ml-auto">
+						<h5 class="calendar__title">Calendar</h5>
+						<p id="datepicker"></p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="popular mr-auto">
+						<a href="#">
+							<h2 class="popular__title">Popular Now</h2>
+						</a>
+						<a href="#">
+							<h4 class="popular__name">Vanilla Frozen Coffee</h4>
+						</a>
+						<p class="popular__info">Mix coffee, sugar and creamer.
+							Pour into blender and add ice cubes.
+							Blend until smooth.</p>
+						<button href="#" class="btn btn__popular">GET IT RECIPE</button>
+						<div class="popular-info">
+							<a href="#" class="more__link"><i class="far fa-clock"><span
+										class="time">15mins</span></i></a>
+							<a href="#" class="more__link"><i class="far fa-comment"><span>240</span></i></a>
+							<a href="#" class="more__link"><i class="far fa-eye"><span>400</span></i></a>
+						</div>
+					</div>
+					<div class="timeline mr-auto">
+						<!--Чтоб не переписывать правило-->
+						<div class="target__header">
+							<h5 class="target__title">Timeline</h5>
+							<div class="target__header-icon">
+								<a href="#" class="chi-icon__link"><i class="fas fa-print"></i></a>
+								<a href="#" class="chi-icon__link"><i class="far fa-envelope"></i></a>
+								<a href="#" class="chi-icon__link"><i class="fab fa-facebook-f"></i></a>
+								<a href="#" class="chi-icon__link"><i class="fab fa-pinterest-square"></i></a>
+							</div>
+						</div>
+						<h4 class="timeline__title">Time line</h4>
+						<div class="progress__block">
+							<div class="progress__easy">
+								<p>easy</p>
+								<div class="rectangle"></div><span>15mins</span>
+							</div>
+							<div class="progress__middle">
+								<p>middle</p>
+								<div class="rectangle__middle"></div><span>15mins</span>
+							</div>
+							<div class="progress__long">
+								<p>middle</p>
+								<div class="rectangle__long"></div><span>15mins</span>
+							</div>
+						</div>
+						<div class="timeline__info">
+							Eam adhuc iudico percipitur ex,
+							ut malis audire voluptaria has.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="register">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="register-login ml-auto">
+						<h5 class="login__title">Login</h5>
+						<p class="login__lemon">Login for LEMON</p>
+						<form>
+							<div class="form-group">
+								<input type="email" class="form-control" id="exampleInputEmail1"
+									aria-describedby="emailHelp" placeholder="email or login">
+							</div>
+							<div class="form-group">
+								<input type="password" class="form-control" id="exampleInputPassword1"
+									placeholder="password">
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="exampleCheck1">
+								<label class="form-check-label" for="exampleCheck1">Remember me</label>
+								<label class="form-check-label float" for="exampleCheck2"><a href="#">Forgot your password ?</a></label>
+							</div>
+						</form>
+						<button href="#" class="btn btn__login">LOGIN</button>
+						<div class="login__icon">
+							<a href="#" class="icon-login__link"><i class="fab fa-facebook-f facebooks"></i></a>
+							<a href="#" class="icon-login__link"><i class="fab fa-google-plus-g googles"></i></a>
+						</div>
+						<label class="form-check-label-sign" for="exampleCheck3">Don’t have an accont?<a href="#" class="sig__in">Sign in</a></label>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="register-sign">
+						<h5 class="sign__title">Sign in</h5>
+						<p class="sign__lemon">Sign in for LEMON</p>
+						<form>
+							<div class="form-group">
+								<input type="email" class="form-control" id="exampleInputEmail2"
+									aria-describedby="emailHelp" placeholder="email or login">
+							</div>
+							<div class="form-group">
+								<input type="username" class="form-control" id="exampleInputPassword1"
+									placeholder="user name">
+							</div>
+							<div class="form-group">
+								<input type="password" class="form-control" id="exampleInputPassword1"
+									placeholder="password">
+							</div>
+							<div class="form-group">
+								<input type="repeatpassword" class="form-control" id="exampleInputPasswordrepeat"
+									placeholder="repeat password">
+							</div>
+						</form>
+						<button href="#" class="btn btn__sign">SIGN UP</button>
+						<div class="sign__icon">
+							<a href="#" class="icon-sign__link"><i class="fab fa-facebook-f facebooks"></i></a>
+							<a href="#" class="icon-sign__link"><i class="fab fa-google-plus-g googles"></i></a>
+						</div>
+						<p class="sign__info">
+							By joining LEMON, you agree to our
+							<a href="#">Terms of Service.</a>
+						</p>
+						<a href="#" class="sign__login">Login</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="comments">
+		<div class="container">
+			<div class="comments__wrapper">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="comments-block__header">
+							<h4 class="comments__title">
+								Post a Comment
+							</h4>
+							<div class="comments__social">
+								<a href="#" class="comments-social__link slash">Facebook</a>
+								<a href="#" class="comments-social__link">Twitter</a>
+							</div>
+						</div>
+						<div class="comments-post__base">
+							<a href="#"><img src="img/uberdata.png" alt="images" class="post__icon"></a>
+							<div class="input-group mb-3">
+								<input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="button-addon2">
+								<div class="input-group-append">
+									<button class="btn btn-outline-secondary" type="button" id="button-addon2">POST</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="blockpost">
+		<div class="container">
+			<div class="blockpost__base">
+				<div class="row">
+					<div class="col-lg-12">
+						<h4 class="blockpost__title">
+							Comments
+						</h4>
+					</div>
+					<div class="col-lg-12">
+						<a href="#"><img src="img/uberdata.png" alt="images" class="post__header-icon"></a>
+						<div class="post__block">
+							<div class="share__post">
+								<p class="title__post-block">post by </p>
+								<a href="#" class="author__post-block">Smuckersreg Toppings </a>
+								<a href="#" class="replys">reply</a>
+								<p class="date__post">6/10/2014</p>
+							</div>
+							<div class="post__share-icon ml-auto">
+								<a href="#">456 <i class="fas fa-share-alt"></i></a><br>
+								<a href="#"><span>15 </span><i class="far fa-thumbs-up"></i></a>
+							</div>
+						</div>
+						<div class="postim">
+							<div class="postim__imager" style="background-image: url('img/post_img.png');">
+								<a href="#"><i class="fab fa-pinterest pinter"></i></a>
+								<a href="#" class="imager__link"></a>
+							</div>
+							<p>Thanks for the recipe</p>
+						</div>
+						<div class="post__block__topic">
+							<a href="#"><img src="img/uberdata.png" alt="images" class="topic__iconn"></a>
+							<div class="share__post">
+								<p class="title__post-block">post by </p>
+								<a href="#" class="author__post-block">Smuckersreg Toppings</a>
+								<a href="#" class="replys">reply</a>
+								<p class="date__post">6/10/2014</p>
+								<p class="thank__post">Thanks for the recipe lorem ipsum bla bla bla Thanks for the
+									recipe lore</p>
+							</div>
+							<div class="post__share-icon  ml-auto">
+								<a href="#">456 <i class="fas fa-share-alt"></i></a><br>
+								<a href="#"><span>15 </span><i class="far fa-thumbs-up"></i></a>
+							</div>
+						</div>
+					</div>
+					<a href="#" class="more__coment">24 more comments</a>
+					<div class="col-lg-12">
+						<div class="post__footer">
+							<a href="#"><img src="img/uberdata.png" alt="images" class="topic__iconn"></a>
+							<div class="share__post">
+								<p class="title__post-block">post by </p>
+								<a href="#" class="author__post-block">Smuckersreg Toppings</a>
+								<a href="#" class="replys">reply</a>
+								<p class="date__post">6/10/2014</p>
+								<p class="footer-post_f" style="margin-top: -10px;">Thanks for the recipe</p>
+							</div>
+							<div class="post__share-icon  ml-auto">
+								<a href="#">456 <i class="fas fa-share-alt"></i></a><br>
+								<a href="#"><span>15 </span><i class="far fa-thumbs-up"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="numer__page">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<nav aria-label="Page navigation example">
+						<ul class="pagination">
+							<li class="page-item">
+								<a class="page-link" href="#" aria-label="Previous">
+									<span aria-hidden="true">
+										&lt; </span> </a> </li> <li class="page-item"><a class="page-link" href="#">1</a>
+							</li>
+							<li class="page-item disabled"><a class="page-link" href="#">2</a></li>
+							<li class="page-item"><a class="page-link" href="#">3</a></li>
+							<li class="page-item"><a class="page-link" href="#">4</a></li>
+							<li class="page-item"><a class="page-link" href="#">5</a></li>
+							<li class="page-item"><a class="page-link" href="#">6</a></li>
+							<li class="page-item">
+								<a class="page-link" href="#" aria-label="Next">
+									<span aria-hidden="true"> &gt; </span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<nav class="navbar nav-footer__bar navbar-expand-xl bg-dark">
+				<a class="navbar-brand footer-brand" href="#"><img src="img/footer__logo.png" alt="images"></a>
+				<ul class="navbar-nav footer-nav ml-auto mr-auto">
+					<li class="nav-item__footer">
+						<a class="nav-link__footer" href="#">Home</a>
+					</li>
+					<li class="nav-item__footer">
+						<a class="nav-link__footer" href="#">Recipes</a>
+					</li>
+					<li class="nav-item__footer">
+						<a class="nav-link__footer" href="#">Photo Galleries</a>
+					</li>
+					<li class="nav-item__footer">
+						<a class="nav-link__footer" href="#">Videos</a>
+					</li>
+					<li class="nav-item__footer">
+						<a class="nav-link__footer" href="#">All Categories</a>
+					</li>
+				</ul>
+				<i class="far fa-copyright align-items-center"> <span>2016-2017 LEMON. All right reserved</span></i>
+					<div class="footer__social-link">
+						<a href="#" class="footer-social__link"><i class="fab fa-google-plus-g"></i></a>
+						<a href="#" class="footer-social__link"><i class="fab fa-twitter"></i></a>
+						<a href="#" class="footer-social__link"><i class="fab fa-facebook-f"></i></a>
+						<a href="#" class="footer-social__link"><i class="fab fa-pinterest-square"></i></a>
+					</div>
+			</nav>
+		</div>
+	</footer>
+
+	<!-- jQuery & javaScript -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="libs/owlcarousel/owl.carousel.min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="js/dcalendar.picker.js"></script>
+	<script src="js/js.js"></script>
+</body>
+
+</html>
