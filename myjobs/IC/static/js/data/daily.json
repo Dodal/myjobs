@@ -1,0 +1,11 @@
+{
+	"EUR": {
+		"ID": "R01239",
+		"NumCode": "978",
+		"CharCode": "EUR",
+		"Nominal": 1,
+		"Name": "Евро",
+		"Value": 78.5225,
+		"Previous": 77.9229
+	}
+}
