@@ -1,0 +1,92 @@
+@media all and (max-width: 600px) {
+	.header__nav {
+		padding-top: 20px !important;
+	}
+	.nav a {
+		display: none;
+	}
+	.carousel__item {
+	margin-top: 80px !important;
+	}
+	.carousel__title h1 {
+		font-size: 70px !important;
+	}
+	.carousel__button {
+		margin-top: -20px !important;
+	}
+	.who {
+		margin-top: 40px !important;
+	}
+	.who__index a {
+		font-size: 40px !important;
+	}
+	.who__index a:hover:before {
+		left: 60px !important;
+	}
+	input[type='text'], input[type='email'] {
+		width: 345px !important;
+	}
+	a:hover:before {
+		display: none;
+	}
+	.who__title {
+		padding-bottom: 40px !important;
+	}
+	.tour__index {
+		padding-top: 40px !important;
+	}
+	.tour__index a {
+		font-size: 40px !important;
+	}
+	.tour__title {
+		padding-bottom: 40px !important;
+	}
+	.tour__ptitle {
+		padding-bottom: 0px !important;
+	}
+	.testimonial__index {
+		padding-top: 40px !important;
+	}
+	.testimonial__index a {
+	font-size: 40px !important;
+	}
+	#testimonial-slider {
+		padding-top: 40px !important;
+	}
+	.event__index {
+		padding-top: 40px !important;
+	}
+	.event__index a {
+		font-size: 40px !important;
+	}
+	.event__img {
+		margin-top: 0 !important;
+	}
+	.event__title__bg {
+		margin-bottom: 40px !important;
+	}
+	.contact__index {
+		padding-top: 40px !important;
+		margin-bottom: 40px !important;
+	}
+	.contact__index a {
+		font-size: 40px !important;
+	}
+	input[type='text'], input[type='email'] {
+		margin-bottom: 40px !important;
+		width: 100% !important;
+	}
+	textarea {
+		margin-top: -40px !important;
+		width: 100% !important;
+	}
+	.event__img__link {
+		margin: 0 auto !important;
+	}
+	.footer__title {
+		margin-top: 0 !important;
+	}
+	.footer__title {
+		text-align: center !important;
+	}
+}

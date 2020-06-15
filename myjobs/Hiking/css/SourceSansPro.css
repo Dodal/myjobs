@@ -1,0 +1,29 @@
+@font-face {
+	font-family: "SourceSansProRegular";
+	src: url("../fonts/SourceSansPro/SourceSansProRegular/SourceSansProRegular.eot");
+	src: url("../fonts/SourceSansPro/SourceSansProRegular/SourceSansProRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/SourceSansPro/SourceSansProRegular/SourceSansProRegular.woff") format("woff"),
+	url("../fonts/SourceSansPro/SourceSansProRegular/SourceSansProRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "SourceSansProLight";
+	src: url("../fonts/SourceSansPro/SourceSansProLight/SourceSansProLight.eot");
+	src: url("../fonts/SourceSansPro/SourceSansProLight/SourceSansProLight.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/SourceSansPro/SourceSansProLight/SourceSansProLight.woff") format("woff"),
+	url("../fonts/SourceSansPro/SourceSansProLight/SourceSansProLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "SourceSansProBold";
+	src: url("../fonts/SourceSansPro/SourceSansProBold/SourceSansProBold.eot");
+	src: url("../fonts/SourceSansPro/SourceSansProBold/SourceSansProBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/SourceSansPro/SourceSansProBold/SourceSansProBold.woff") format("woff"),
+	url("../fonts/SourceSansPro/SourceSansProBold/SourceSansProBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+	}
